@@ -34,4 +34,8 @@ npm run build
 
 <br/><br/>
 
+## 🎨 Designer
+
+[Our Logo Designer Siavash](https://github.com/siavashorg)
+
 to build to other OS's look at the documentation for electron-packager
