@@ -1,0 +1,23 @@
+{
+  "name": "propad",
+  "productName": "ProPad",
+  "version": "1.0.0",
+  "description": "The pro version of notepad written in node.js-typescript with electron.js technology",
+  "main": "index.ts",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "im-parsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im-parsa/ProPad/issues"
+  },
+  "homepage": "https://github.com/im-parsa/ProPad#readme",
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-packager": "^7.7.0"
+  },
+  "dependencies": {
+    "quill": "^0.20.1"
+  }
+}

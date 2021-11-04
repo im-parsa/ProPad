@@ -1,0 +1,105 @@
+body,
+html
+{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+button
+{
+	-webkit-app-region: no-drag;
+	outline: none;
+	border: none;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.topBar
+{
+	font-family: Arial, serif;
+	height: 30px;
+	width: 100%;
+	float: left;
+	background: #0d65c3;
+	margin-bottom: 20px;
+	position: absolute;
+	z-index: 99;
+}
+
+.topBar-left
+{
+	top: 0;
+	left: 0;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.topBar .title
+{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 0;
+	margin: 7px 0;
+	color: white;
+	font-size: 16px;
+}
+
+.topBar-right
+{
+	top: 0;
+	right: 0;
+	float: right;
+	position: relative;
+	z-index: 1;
+}
+
+.topBar-btn
+{
+	height: 30px;
+	background: #0d65c3;
+	color: white;
+	transition: all .5s;
+}
+
+.topBar-btn:hover
+{
+	background: #0a53a1;
+	cursor: pointer;
+}
+
+.topBar-btn:active
+{
+	background: #0a53a1;
+	cursor: pointer;
+}
+
+#toolbar
+{
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 100%;
+	margin-top: 30px;
+}
+
+#editor
+{
+	width: 100%;
+	height: 85%;
+	overflow-y: auto;
+	color: rgb(89, 89, 89);
+	font-size: 16px;
+	margin-top: 85px;
+	padding: 0 10px 0 25px;
+	position: relative;
+	display: block;
+}
